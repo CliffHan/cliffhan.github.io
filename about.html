@@ -1,0 +1,52 @@
+---
+layout: default
+title: 关于
+extra_css: /css/about.css
+---
+<!--index.html-->
+{% include navbar.html %}
+<div class="container container-offset">
+
+    <div class="row jumbotron about-jumbotron-fix">
+        <!--Name-->
+        <h1 class="h1-responsive text-xs-center">关于我</h1>
+        <hr>
+
+        <!--Avatar-->
+        <div class="col-xs-6 offset-xs-3 col-sm-4 offset-sm-1 col-md-3 offset-md-2 col-lg-2 offset-lg-2">
+            <img src="/img/aboutme.jpg" class="img-fluid img-circle z-depth-2">
+        </div>
+
+        <!--Author Data-->
+        <div class="col-xs-12 col-sm-6 offset-sm-1 offset-md-1 offset-lg-2 text-xs-center text-sm-left">
+            <h3 class="h3-responsive about-fix"><strong>{{site.about-name}}</strong></h3>
+
+            <div>
+                <a href={{site.about-mail}} target="_blank">
+                    <i class="fa fa-envelope-o fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的邮箱"></i>
+                </a>
+                <a href={{site.about-blog}} target="_blank">
+                    <i class="fa fa-wordpress fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的技术博客"></i>
+                </a>
+                <a href={{site.about-linkedin}} target="_blank">
+                    <i class="fa fa-linkedin fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的Linkedin"></i>
+                </a>
+                <a href={{site.about-github}} target="_blank">
+                    <i class="fa fa-github fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的Github"></i>
+                </a>
+                <a href={{site.about-homeserver}} target="_blank">
+                    <i class="fa fa-server fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的家用服务器"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="divider-new">
+        <i class="fa fa-star-o fa-fw"></i>
+    </div>
+    <div class="row jumbotron">
+        <h1 class="h1-responsive text-xs-center">关于本站</h1>
+        <hr>
+        <p class="text-xs-center">个人站点。用于作品发布和技术演示</p>
+    </div>
+</div>

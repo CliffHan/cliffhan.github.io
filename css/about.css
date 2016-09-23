@@ -1,0 +1,44 @@
+.jumbotron {
+    margin: 0;
+}
+
+@media (max-width: 543px) {
+    .about-jumbotron-fix {
+        margin-top: 0;
+    }
+    .about-fix {
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 544px) {
+    .about-jumbotron-fix {
+        margin-top: 45px;
+    }
+    .about-fix {
+        margin-top: 0;
+    }
+}
+
+.fa-github,
+.fa-github-alt,
+.fa-github-square {
+    color: #222222;
+}
+
+.fa-linkedin,
+.fa-linkedin-square {
+    color: #1985bc;
+}
+
+.fa-wordpress {
+    color:#04769C;
+}
+
+.fa-server {
+}
+
+.fa-envelope,
+.fa-envelope-o {
+    /*color: #0d47a1;*/
+}

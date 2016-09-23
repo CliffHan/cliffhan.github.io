@@ -1,0 +1,48 @@
+.titlefont {
+    font-family: zcool-gdh;
+    /*font-size: 6em;*/
+    font-weight: bold;
+    margin: 0;
+}
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.flex-center ul li {
+    margin-bottom: 0;
+}
+
+.flex-center {
+    color: #fff;
+}
+
+.inverse {
+    color: #000;
+    background: #fff;
+}
+
+.view {
+    background: url("http://odou8r373.bkt.clouddn.com/bing_today.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-justify {
+    text-align: justify;
+    text-align-last: justify;
+    font-weight:bold;
+}
+
+
+
+
+
