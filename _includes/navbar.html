@@ -1,5 +1,5 @@
 <!--navbar.html-->
-<nav class="navbar navbar-dark navbar-fixed-top {%if page.altered_nav%}{%else%}bg-primary{%endif%}">
+<nav class="navbar navbar-dark navbar-fixed-top {% if page.altered_nav %}{% else %}bg-primary{% endif %}">
 
     <!-- Collapse button-->
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
@@ -13,10 +13,10 @@
             <a class="navbar-brand" href="/">{{site.name}}</a>
             <!--Links-->
             <ul class="nav navbar-nav pull-xs-right">
-                <li class="nav-item {%if page.title=='主页'%}active{%endif%}">
+                <li class="nav-item {% if page.title=='主页' %}active{% endif %}">
                     <a class="nav-link" href="/"><i class="fa fa-home fa-fw" aria-hidden="true"></i>主页</a>
                 </li>
-                <li class="nav-item {%if page.title=='关于'%}active{%endif%}">
+                <li class="nav-item {% if page.title=='关于' %}active{% endif %}">
                     <a class="nav-link" href="about.html"><i class="fa fa-info fa-fw" aria-hidden="true"></i>关于</a>
                 </li>
             </ul>
