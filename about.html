@@ -20,9 +20,22 @@ label: about
 
         <!--Author Data-->
         <div class="col-xs-12 col-sm-6 offset-sm-1 offset-md-1 offset-lg-2 text-xs-center text-sm-left">
-            <h3 class="h3-responsive about-fix"><strong>{{site.about-name}}</strong></h3>
+            <h3 class="h3-responsive about-fix"><strong>{{site.about-name}}</strong>
+            	<a href="mailto:{{site.my-mail}}" target="_blank">
+                    <i class="fa fa-envelope-o fa-fw" data-toggle="tooltip" data-placement="top" title="我的邮箱:{{site.my-mail}}"></i>
+              </a>
+            	<a href="#">
+                    <i class="fa fa-qq fa-fw" data-toggle="tooltip" data-placement="top" title="我的QQ:{{site.my-qq}}"></i>
+              </a>
+            </h3>
 
-            <div>
+		        <p class="text-xs-center text-sm-left">
+		        	计算机专业学士，MBA在读<br>
+		        	C/C++/Java/HTML5/Javascript<br>
+		        	Windows/Android/Web<br>		        	
+		        	管理者未满
+		        </p>
+            <!--div>
                 <a href={{site.about-mail}} target="_blank">
                     <i class="fa fa-envelope-o fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的邮箱"></i>
                 </a>
@@ -38,7 +51,7 @@ label: about
                 <a href={{site.about-homeserver}} target="_blank">
                     <i class="fa fa-server fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的家用服务器"></i>
                 </a>
-            </div>
+            </div-->
         </div>
 
     </div>
