@@ -1,3 +1,6 @@
+---
+---
+
 .titlefont {
     font-family: zcool-gdh;
     /*font-size: 6em;*/
@@ -29,7 +32,7 @@ body,
 }
 
 .view {
-    background: url("http://odou8r373.bkt.clouddn.com/bing_today.jpg")no-repeat center center fixed;
+    background: url("{{site.my-qiniu-site}}/bing_today.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

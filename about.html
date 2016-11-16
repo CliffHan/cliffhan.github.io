@@ -2,7 +2,6 @@
 layout: default
 title: 关于
 extra_css: /css/about.css
-label: about
 ---
 <!--index.html-->
 {% include navbar.html %}
@@ -20,12 +19,18 @@ label: about
 
         <!--Author Data-->
         <div class="col-xs-12 col-sm-6 offset-sm-1 offset-md-1 offset-lg-2 text-xs-center text-sm-left">
-            <h3 class="h3-responsive about-fix"><strong>{{site.about-name}}</strong>
+            <h3 class="h3-responsive about-fix"><strong>{{site.my-name}}</strong>
+            	<a href="#">
+                    <i class="fa fa-qq fa-fw" data-toggle="tooltip" data-placement="top" title="我的QQ:{{site.my-qq}}"></i>
+              </a>
             	<a href="mailto:{{site.my-mail}}" target="_blank">
                     <i class="fa fa-envelope-o fa-fw" data-toggle="tooltip" data-placement="top" title="我的邮箱:{{site.my-mail}}"></i>
               </a>
-            	<a href="#">
-                    <i class="fa fa-qq fa-fw" data-toggle="tooltip" data-placement="top" title="我的QQ:{{site.my-qq}}"></i>
+            	<a href="{{site.my-github}}" target="_blank">
+                    <i class="fa fa-github fa-fw" data-toggle="tooltip" data-placement="top" title="我的Github"></i>
+              </a>
+            	<a href="{{site.my-linkedin}}" target="_blank">
+                    <i class="fa fa-linkedin fa-fw" data-toggle="tooltip" data-placement="top" title="我的Linkedin"></i>
               </a>
             </h3>
 
@@ -35,23 +40,6 @@ label: about
 		        	Windows/Android/Web<br>		        	
 		        	管理者未满
 		        </p>
-            <!--div>
-                <a href={{site.about-mail}} target="_blank">
-                    <i class="fa fa-envelope-o fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的邮箱"></i>
-                </a>
-                <a href={{site.about-blog}} target="_blank">
-                    <i class="fa fa-wordpress fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的技术博客"></i>
-                </a>
-                <a href={{site.about-linkedin}} target="_blank">
-                    <i class="fa fa-linkedin fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的Linkedin"></i>
-                </a>
-                <a href={{site.about-github}} target="_blank">
-                    <i class="fa fa-github fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的Github"></i>
-                </a>
-                <a href={{site.about-homeserver}} target="_blank">
-                    <i class="fa fa-server fa-fw fa-lg" data-toggle="tooltip" data-placement="top" title="我的家用服务器"></i>
-                </a>
-            </div-->
         </div>
 
     </div>
