@@ -32,7 +32,7 @@ body,
 }
 
 .view {
-    background: url("http://phpapi.clifftop.win/bingwallpaper.php")no-repeat center center fixed;
+    /*background: url("http://phpapi.clifftop.win/bingwallpaper.php")no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -45,4 +45,3 @@ body,
     /*-moz-text-align-last: center;/*TODO: Just a workaround since I failed to fix display in webkit*/
     font-weight:bold;
 }
-
