@@ -32,7 +32,7 @@ body,
 }
 
 .view {
-    background: url("http://phpapi.clifftop.win/bingwallpaper.php")no-repeat center center fixed;
+    /*background: url("http://phpapi.clifftop.win/bingwallpaper.php")no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

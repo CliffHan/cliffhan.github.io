@@ -6,8 +6,8 @@ extra_css: /css/index.css
 ---
 <!--index.html-->
 {% include navbar.html %}
-<div class="view hm-black-strong" id="index-view">
-    <div class="full-bg-img flex-center">
+<div class="view hm-black-light canvas-wrap" id="index-view">
+    <div class="full-bg-img flex-center canvas-content">
         <ul>
             <li>
                 <h1 class="h1-responsive titlefont text-justify">{{site.title}}</h1>
@@ -18,4 +18,6 @@ extra_css: /css/index.css
             </li>
         </ul>
     </div>
+    <div id="canvas" class="gradient"></div>
 </div>
+{% include canvas.html %}
