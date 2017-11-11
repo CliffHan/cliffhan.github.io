@@ -31,3 +31,8 @@
 .card-columns .card {
   margin-bottom: 1rem;
 }
+
+.card-img-top {
+  width: 144px;
+  height: 144px;
+}
