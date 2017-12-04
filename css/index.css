@@ -42,6 +42,6 @@ body,
 .text-justify {
     text-align: justify;
     text-align-last: justify;
-    /*-moz-text-align-last: center;/*TODO: Just a workaround since I failed to fix display in webkit*/
+    text-justify: inter-character;
     font-weight:bold;
 }
